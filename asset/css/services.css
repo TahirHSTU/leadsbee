@@ -144,3 +144,51 @@ h2.col-md-6 {
 /* lets start */
 
 
+
+/* Footer Styles */
+
+.footer{
+    background: linear-gradient(30deg, #FBF1D5, #fff);
+}
+.footer-widget-1 p {
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+.footer-widget-2 h3,.footer-widget-3 h3 {font-family: 'Roboto',sans-serif;font-size: 26px;font-weight: 500;line-height: 35px;}
+
+.footer-widget-2 ul li,.footer-widget-3 ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.footer-widget-2 ul li a,.footer-widget-3 ul li a {
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    color: #64707D;
+}
+.footer-widget-4 p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.footer-widget-4 ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 5px 10px;
+    font-size: 27px;
+}
+.footer-widget-4 ul li a {
+    color: #DDDDDD;
+}
+
+.footer-widget-4 ul li a:hover {
+    color: #FFBA00;
+    transition: all 0.5s ease-in-out;
+}
