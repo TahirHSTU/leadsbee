@@ -161,6 +161,10 @@ button.nav-button{
     height: auto;
     
 }
+.project-discussion-image img{
+
+    
+}
 .project-discussion h2 {
     font-family: 'Roboto',sans-serif;
     font-size: 45px;
@@ -190,3 +194,4 @@ button.nav-button{
     transition: 0.5s all ease;
 }
 
+/* 574*559   */
