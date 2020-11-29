@@ -125,7 +125,124 @@ border-radius: 3%;
     padding: 2rem;
 }
 
-/* Footer Styles */
+.feature li {
+    padding-left: 2rem;
+    background-image: url(../image/check.svg);
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    list-style-type: none;
+    
+  }
+.feature {
+    font-weight: bold;
+}
+
+/* Work process syles */ 
+
+.process-block {
+    text-align: center;
+    padding: 10px;
+}
+
+.card-header  {
+    background-color: #faea7e;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s all ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.process-block img {
+    background: #FBF5E5;
+    border: 2px dotted #FFBA00;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.process-block img:hover{
+    transform: scale(1.1);
+    transition: 0.5s all ease;
+}
+
+.process-block p {
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.process-block h3 {
+    font-family: 'Roboto',sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+}
+.project-discussion{
+    margin-left: 30px;
+    height: auto;
+    
+}
+.project-discussion-image img{
+    
+    
+}
+.project-discussion h2 {
+    font-family: 'Roboto',sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    color: #070A57;}
+    
+    .project-discussion p {
+        font-family: 'Roboto',sans-serif;
+        font-size: 18px;
+        line-height: 35px;
+        color: #64707D;}
+        
+        .project-discussion button {
+            background:#FFBA00;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            padding: 5px 10px;
+            border: none;
+            vertical-align: middle;
+            margin-top: -5px;
+            border-radius: 5px;
+            
+        }
+        
+        .project-discussion button:hover{
+            transform: scale(1.1);
+            transition: 0.5s all ease;
+        }
+        /* Work process syles finish */ 
+        
+        /* Featured Designs */
+        
+        .square {
+            position: relative;
+            width: 300px;     
+            height: 300px;
+            overflow: hidden;
+            
+         }
+         .square-img {
+            position: absolute;
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+            top: 50%;     
+            left: 50%;
+            transform: translate( -50%, -50%);
+            padding-right: 1.1rem;
+            padding-left: 1.1rem;
+            border-radius: 8%;
+        }
+
+
+        
+       /* Footer Styles */
 
 .footer{
     background: linear-gradient(30deg, #FBF1D5, #fff);
